@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80 80 80);
+
+}
+a{
+    color: rgb(80 80 80);
+    text-decoration: none;
+}
+.left {
+    float: left;
+    max-width: 600px;
+}
+.right{
+    float:right;
+    margin-right:0;
+}
+nav{
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 0;
+}
+nav ul li{
+    float: left;
+    padding-left: 20px;
+    list-style: none;
+    font-size: 16px;
+}
+#aboutme img{
+    width: 270px;
+    border-radius: 10px;
+}
+details img{
+    width: 500px;
+}
+summary{
+    list-style-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg");
+    padding-bottom: 5px;
+}
+#projects{
+    clear: both;
+    padding:5px 0 15px 0;
+}
+ul.ficons{
+    margin: 0; 
+    padding: 0;
+}
+.ficons li{
+    list-style: none;
+    padding-right: 30px;
+    float:left;
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
+footer i{
+    color: red;
+}
